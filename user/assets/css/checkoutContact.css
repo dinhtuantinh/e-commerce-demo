@@ -1,0 +1,520 @@
+.footer {
+  background-color: #ffffff !important;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.footer-content {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content-detail {
+  font-size: 10px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.order-summary-left {
+  width: 860px;
+}
+
+.order-summary-right {
+  width: 100%;
+  height: auto;
+  max-height: 900px;
+  padding: 30px;
+  border: 1px solid #B7BAC0;
+}
+
+.order-summary-right-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.order-summary-right-up-left {
+  font-size: 22px;
+  font-weight: 600;
+  color: #060520;
+}
+
+.order-summary-right-up-right {
+  font-size: 20px;
+  color: #151515;
+  cursor: pointer;
+}
+
+.order-summary-right-down {
+  width: 100%;
+  height: auto;
+}
+
+.order-summary-right-product {
+  width: 100%;
+  height: auto;
+}
+
+.order-summary-right-product-detail {
+  width: 100%;
+  height: 90px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.right-product-detail-img {
+  width: 90px;
+  height: 90px;
+  border: 1px solid hsl(220, 11%, 80%);
+  background-size: 100%;
+}
+
+.right-product-detail-info {
+  width: 280px;
+}
+
+.right-product-detail-info-quantity {
+  width: 100%;
+  text-align: right;
+  font-weight: 300;
+  font-size: 12px;
+  color: #6E7582;
+  margin-bottom: 5px;
+}
+
+.right-product-detail-info-name {
+  width: 100%;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #151515;
+  margin-bottom: 5px;
+}
+
+.right-product-detail-info-price {
+  width: 100%;
+  font-weight: 700;
+  font-size: 16px;
+  color: #151515;
+}
+
+.order-summary-right-code {
+  width: 100%;
+  height: 80px;
+  padding: 20px 0px;
+  border-bottom: 1px solid hsl(220, 11%, 80%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-coupon-code {
+  width: 260px;
+  border: 1px solid hsl(220, 11%, 80%);
+  padding: 0px 10px;
+}
+
+.add-coupon-code {
+  width: 110px;
+  background-color: #B7BAC0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.add-coupon-code:hover {
+  background-color: #151515;
+}
+
+.order-summary-right-subtotal {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.order-summary-right-name {
+  font-weight: 400;
+  font-size: 18px;
+  color: #151515;
+}
+
+.subtotal-price {
+  font-weight: 700;
+  font-size: 18px;
+  color: #151515;
+}
+
+.order-summary-right-shipping,
+.order-summary-right-discount,
+.order-summary-right-tax,
+.order-summary-right-total {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.shipping-price {
+  font-weight: 700;
+  font-size: 18px;
+  color: #009B10;
+}
+
+.discount-price,
+.tax-price {
+  font-weight: 700px;
+  font-size: 18px;
+  color: #151515;
+}
+
+.order-summary-right-tax {
+  padding-bottom: 20px;
+  border-bottom: 1px solid hsl(220, 11%, 80%);
+}
+
+.total-price {
+  font-weight: 700;
+  font-size: 24px;
+  color: #151515;
+}
+
+
+.contact-container {
+  width: 840px;
+  /* height: 100px; */
+  height: auto;
+  padding: 30px;
+  border: 1px solid #B5ABAA;
+  margin-bottom: 30px;
+}
+
+.contact-name {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-name .name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.change {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.change-name {
+  font-size: 18px;
+  font-weight: 400;
+  color: #E36709;
+}
+
+.change .glyphicon {
+  margin-left: 0;
+  color: #E36709;
+}
+
+.contact-body {
+  width: 100%;
+  height: 110px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.email {
+  font-weight: 600;
+  font-size: 16px;
+  color: #313131;
+  margin-bottom: 10px;
+}
+
+.input-email {
+  height: 50px;
+  border: 1px solid #EDE8E7;
+  padding: 0px 15px;
+  margin-bottom: 10px;
+}
+
+.contact-login {
+  width: 100%;
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  color: #313131;
+}
+
+.login {
+  color: #044831d8 !important;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.contact-btn {
+  border: none;
+  background-color: #B5ABAA;
+  width: 230px;
+  height: 52px;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin-left: 550px;
+  cursor: pointer;
+}
+
+.btn-valid {
+  background-color: #E36709 !important;
+}
+
+.contact-btn-email {
+  display: none;
+}
+
+.shipping-body {
+  display: none;
+  width: 778px;
+  height: auto;
+}
+
+.shipping-name {
+  width: 378px;
+  height: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #313131;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.shipping-name-left {
+  margin-right: 20px;
+}
+
+.input-name {
+  width: 376px;
+  height: 45px;
+  border: 1px solid #EDE8E7;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+
+.input-name-left {
+  margin-right: 20px;
+}
+
+.country-name {
+  width: 777px;
+  height: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #313131;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.country-select {
+  width: 777px;
+  height: 45px;
+  border: 1px solid #EDE8E7;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.address-name {
+  width: 777px;
+  height: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #313131;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.input-address {
+  width: 777px;
+  height: 45px;
+  border: 1px solid #EDE8E7;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+
+.addLine {
+  width: 777px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #313131;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.city-name,
+.phone-name,
+.cart-number-name {
+  width: 777px;
+  height: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #313131;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.input-city,
+.input-phone,
+.cart-number-input {
+  width: 777px;
+  height: 45px;
+  border: 1px solid #EDE8E7;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+
+.state-name,
+.zip-name {
+  width: 378px;
+  height: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #313131;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.state-name-left {
+  margin-right: 20px;
+}
+
+.input-state,
+.input-zip {
+  width: 378px;
+  height: 45px;
+  border: 1px solid #EDE8E7;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.input-state-left {
+  margin-right: 20px;
+}
+
+.check {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.check-name {
+  width: 768px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #313131;
+  padding-left: 35px;
+  padding-top: 2px;
+  margin-bottom: 10px;
+}
+
+.contact-btn-shipping {
+  display: none;
+}
+
+
+.payment-body {
+  display: none;
+  width: 778px;
+  height: auto;
+}
+
+.credit-cart {
+  width: 778px;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.credit-name {
+  font-size: 16px;
+  font-weight: 400;
+  color: #313131;
+  width: 100px;
+}
+
+.credit-logo {
+  width: 250px;
+  display: flex;
+  gap: 25px;
+  height: 21px;
+}
+
+.credit-logo-image {
+  width: 30px;
+  height: 21px;
+  background-size: 100%;
+}
+
+.cart-number-email {
+  width: 246px;
+  height: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #313131;
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.cart-number-cvv {
+  width: 246px;
+  height: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #313131;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.cart-email-input {
+  width: 246px;
+  height: 45px;
+  border: 1px solid #EDE8E7;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+  float: left;
+  margin-right: 20px;
+}
+
+.cart-cvv-input {
+  width: 246px;
+  height: 45px;
+  border: 1px solid #EDE8E7;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.payment-btn {
+  display: none;
+}

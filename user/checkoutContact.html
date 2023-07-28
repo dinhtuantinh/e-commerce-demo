@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOVAL-APP</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/homeFooter.css">
+  <link rel="stylesheet" href="./assets/css/checkoutContact.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload banner
+  -->
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" />
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="/index.html" class="logo">
+        <img src="./assets/images/logo.svg" width="160" height="50" alt="Footcap logo">
+      </a>
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="190" height="50" alt="Footcap logo">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Jewelry</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Collections</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">%Outlet</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Our Production</a>
+          </li>
+
+        </ul>
+
+        <ul class="nav-action-list">
+
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Search</span>
+            </button>
+          </li>
+
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Wishlist</span>
+
+              <data class="nav-action-badge" value="5" aria-hidden="true">5</data>
+            </button>
+          </li>
+
+          <li>
+            <a href="#" class="nav-action-btn">
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Login / Register</span>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+  <div class="main-text">Shop / Rolex / Oyster</div>
+
+
+
+  <main>
+    <article style="height: auto; display: flex; margin: 10px 100px; gap: 30px;">
+      <div class="order-summary-left">
+        <div class="contact-container">
+          <div class="contact-name">
+            <div class="name">1. Contact Information</div>
+            <div class="change changeEmail">
+              <div class="change-name">Change</div>
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </div>
+          </div>
+          <div class="contact-body">
+            <div class="email">Email Address</div>
+            <input id="emailInput" class="input-email" type="text" placeholder="Email Address">
+            <div class="contact-login">Already have an account?
+              <div class="login">Login</div>
+            </div>
+          </div>
+          <btn class="contact-btn contact-btn-email" id="submitBtn" onclick="checkEmail()">
+            Continue
+          </btn>
+        </div>
+        <div class="contact-container">
+          <div class="contact-name">
+            <div class="name">2. Shiping Address</div>
+            <div class="change changeShipping">
+              <div class="change-name">Change</div>
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </div>
+          </div>
+          <div class="shipping-body">
+            <div class="shipping-name shipping-name-left">First Name</div>
+            <div class="shipping-name">Last Name</div>
+            <input type="text" class="input-name input-name-left" placeholder="First Name">
+            <input type="text" class="input-name" placeholder="Last Name">
+            <div class="country-name">Country</div>
+            <select name="" id="provinceSelect" class="country-select">
+            </select>
+            <div class="address-name">Street Address</div>
+            <input type="text" class="input-address" placeholder="Street Address">
+            <div class="addLine">+ Add Line 2</div>
+            <div class="city-name">City</div>
+            <input type="text" class="input-city" placeholder="City">
+
+            <div class="state-name state-name-left">State</div>
+            <div class="zip-name">Zip Code</div>
+            <select id="stateSelect" class="input-state input-state-left">
+              <option value="Trang thai 1">Trang thai 1</option>
+              <option value="Trang thai 2">Trang thai 2</option>
+              <option value="Trang thai 3">Trang thai 3</option>
+            </select>
+            <input type="text" class="input-zip" placeholder="Zip Code">
+
+            <div class="phone-name">Phone Number</div>
+            <input type="text" class="input-phone" placeholder="Phone Number">
+
+            <input type="checkbox" class="check">
+            <div class="check-name">Save this informations for a future fast checkout</div>
+            <input type="checkbox" class="check">
+            <div class="check-name">Receive SMS Notifications</div>
+          </div>
+          <btn class="contact-btn contact-btn-shipping">
+            Continue
+          </btn>
+        </div>
+        <div class="contact-container">
+          <div class="contact-name">
+            <div class="name">3. Payment Method</div>
+            <div class="change paymentMethod">
+              <div class="change-name">Change</div>
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </div>
+          </div>
+          <div class="payment-body">
+            <div class="credit-cart">
+              <div class="credit-name">Credit Card</div>
+              <div class="credit-logo">
+                <div class="credit-logo-image" style="background-image: url(assets/images/credit/Icon.png);"></div>
+                <div class="credit-logo-image" style="background-image: url(assets/images/credit/Icon\ \(1\).png);">
+                </div>
+                <div class="credit-logo-image" style="background-image: url(assets/images/credit/Icon\ \(2\).png);">
+                </div>
+                <div class="credit-logo-image" style="background-image: url(assets/images/credit/Icon\ \(3\).png);">
+                </div>
+                <div class="credit-logo-image" style="background-image: url(assets/images/credit/Icon\ \(4\).png);">
+                </div>
+              </div>
+            </div>
+            <div class="cart-number-name">Card Number</div>
+            <input type="text" class="cart-number-input" placeholder="Card Number">
+            <div class="cart-number-email">Email Address</div>
+            <div class="cart-number-email">Email Address</div>
+            <div class="cart-number-cvv">CVV</div>
+            <input type="text" class="cart-email-input" placeholder="Email Address">
+            <input type="text" class="cart-email-input" placeholder="Email Address">
+            <input type="text" class="cart-cvv-input" placeholder="CVV">
+            <div class="cart-number-name">Cardholder Name</div>
+            <input type="text" class="cart-number-input" placeholder="Cardholder Name">
+            <input type="checkbox" class="check">
+            <div class="check-name">Billing address is the same as shipping address</div>
+          </div>
+          <btn class="contact-btn payment-btn">
+            Continue
+          </btn>
+        </div>
+      </div>
+      <div class="order-summary-right">
+        <div class="order-summary-right-up">
+          <div class="order-summary-right-up-left">Order Summary</div>
+          <div class="order-summary-right-up-right"><i class="fas fa-xmark"></i></div>
+        </div>
+        <div class="order-summary-right-down">
+          <div class="order-summary-right-product">
+          </div>
+          <div class="order-summary-right-code">
+            <input type="text" class="input-coupon-code" placeholder="Coupon code">
+            <button class="add-coupon-code">Add code</button>
+          </div>
+          <div class="order-summary-right-subtotal">
+            <div class="order-summary-right-name">Subtotal</div>
+            <div class="subtotal-price"></div>
+          </div>
+          <div class="order-summary-right-shipping">
+            <div class="order-summary-right-name">Shipping</div>
+            <div class="shipping-price">FREE</div>
+          </div>
+          <div class="order-summary-right-discount">
+            <div class="order-summary-right-name">Discount</div>
+            <div class="discount-price">-</div>
+          </div>
+          <div class="order-summary-right-tax">
+            <div class="order-summary-right-name">Tax</div>
+            <div class="tax-price">-</div>
+          </div>
+          <div class="order-summary-right-total">
+            <div class="order-summary-right-name">Total</div>
+            <div class="total-price"></div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-content-detail">Returns</div>
+      <div class="footer-content-detail">Privacy</div>
+      <div class="footer-content-detail">Terms</div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top-btn" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/checkoutContact.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

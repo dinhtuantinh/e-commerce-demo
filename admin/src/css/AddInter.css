@@ -1,0 +1,7 @@
+.btn-cancel{
+    margin-left: 10px !important;
+}
+.err-email{
+    font-weight: bold;
+    color: red;
+}
