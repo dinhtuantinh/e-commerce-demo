@@ -173,6 +173,26 @@ paymentMethod.addEventListener("click", () =>{
 })
 
 
+const login = document.querySelector(".contact-login");
+const inputPass = document.querySelector(".password");
+const back = document.querySelector(".back");
+
+login.addEventListener("click", () =>{
+  login.style.display='none';
+  inputPass.style.display='block';
+  back.style.display='block';
+  contactBtn.style.marginLeft = '20px';
+  contactBtn.style.backgroundColor = "#E36709";
+})
+
+back.addEventListener("click", () =>{
+  login.style.display='flex';
+  inputPass.style.display='none';
+  back.style.display='none';
+  contactBtn.style.marginLeft = '550px';
+  contactBtn.style.backgroundColor = "#B5ABAA";
+})
+
 const provinces = [
   "Hà Nội",
   "Hồ Chí Minh",

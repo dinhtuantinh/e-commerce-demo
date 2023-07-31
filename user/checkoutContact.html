@@ -142,10 +142,22 @@
             <div class="contact-login">Already have an account?
               <div class="login">Login</div>
             </div>
+            <div class="password">
+              <div class="pass">Password</div>
+              <input class="input-pass" type="password" placeholder="Password">
+              <div class="pass">Email Address</div>
+              <input class="input-pass" type="password" placeholder="Password">
+            </div>
           </div>
-          <btn class="contact-btn contact-btn-email" id="submitBtn" onclick="checkEmail()">
-            Continue
-          </btn>
+          <div style="display: flex;">
+            <btn class="contact-btn back" id="backButton">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              Back To Customer Info
+            </btn>
+            <btn class="contact-btn contact-btn-email" id="submitBtn" onclick="checkEmail()">
+              Continue
+            </btn>
+          </div>
         </div>
         <div class="contact-container">
           <div class="contact-name">
